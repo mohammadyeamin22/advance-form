@@ -1,0 +1,27 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.login h2{
+    text-align: center;
+}
+.login input[type=submit]{
+    border: none;
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.login input[type=email]{
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+.login input[type=password]{
+    padding: 10px 15px;
+}
