@@ -1,27 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .login-container{
     display: flex;
     justify-content: center;
 }
-
 .login{
+    
     display: flex;
+    
     flex-direction: column;
     width: 50%;
+    justify-content: center;
+    box-shadow: 10px 10px 30px;
+    padding: 20px;
 }
 .login h2{
     text-align: center;
-}
-.login input[type=submit]{
-    border: none;
-    margin-top: 10px;
-    padding: 10px 15px;
-    font-size: 17px;
-    cursor: pointer;
+    font-size: 32px;
 }
 .login input[type=email]{
-    padding: 10px 15px;
-    margin-bottom: 10px;
+   padding: 10px 20px; 
+   border-radius: 10px;
 }
 .login input[type=password]{
-    padding: 10px 15px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px; border-radius: 10px;
+}
+.login input[type=submit]{
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 10px;
+
+
+
+}
+.login input[type=submit]:hover{
+    background-color: darkgrey;
 }
