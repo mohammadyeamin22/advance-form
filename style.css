@@ -1,15 +1,13 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 15px;
+    padding: 10px;
 }
 .login-container{
     display: flex;
     justify-content: center;
 }
 .login{
-    
     display: flex;
-    
     flex-direction: column;
     width: 50%;
     justify-content: center;
@@ -35,9 +33,6 @@
     cursor: pointer;
     transition: .3s;
     border-radius: 10px;
-
-
-
 }
 .login input[type=submit]:hover{
     background-color: darkgrey;
