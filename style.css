@@ -2,25 +2,34 @@
     margin: 15px;
     padding: 10px;
 }
+
+/* Google Fonts link */
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body{
+    font-family: "Titillium Web", sans-serif;
+}
+
 .login-container{
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
 .login{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    justify-content: center;
-    box-shadow: 10px 10px 30px;
-    padding: 20px;
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    justify-content:center;
+    box-shadow:10px 10px 30px;
+    padding:20px;
 }
 .login h2{
-    text-align: center;
-    font-size: 32px;
+    text-align:center;
+    font-size:32px;
 }
 .login input[type=email]{
-   padding: 10px 20px; 
-   border-radius: 10px;
+   padding:10px 20px; 
+   border-radius:10px;
 }
 .login input[type=password]{
     padding: 10px 20px;
